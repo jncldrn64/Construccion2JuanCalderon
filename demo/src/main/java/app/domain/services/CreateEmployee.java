@@ -12,10 +12,10 @@ public class CreateEmployee {
     }
     
     public void create(Employee employee) throws Exception {
-        Employee existingEmployee = employeePort.findByDocument(employee.PLACEHOLDER());
+        Employee existingEmployee = employeePort.findByDocument(employee.getDocument());
         if (existingEmployee != null) {
             throw new Exception("Ya existe un empleado con esta cedula");
         }
-        employeePort.PLACEHOLDER(employee);
+        employeePort.save(employee);
     }
 }
