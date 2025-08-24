@@ -1,7 +1,7 @@
 package app.domain.entity_models;
 
 import java.time.LocalDate;
-import java.util.Map;
+//import java.util.Map;
 
 public class MedicalRecord {
     
@@ -11,5 +11,7 @@ public class MedicalRecord {
     private String consultationReason;
     private String symptoms;
     private String diagnosis;
-    private Map<String, Object> additionalData;
+    //private String consultationReason;
+    //private String symptoms;  
+    //private String diagnosis;
 }

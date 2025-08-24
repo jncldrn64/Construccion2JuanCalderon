@@ -1,12 +1,9 @@
 package app.domain.entity_models;
 
-public class DiagnosticOrderItem {
+public class DiagnosticOrderItem extends OrderItem {
     
-    private int orderNumber;
-    private int itemNumber;
     private String diagnosticAidName;
     private int quantity;
-    private double cost;
     private boolean requiresSpecialist;
     private int specialtyId;
 }

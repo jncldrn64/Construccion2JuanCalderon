@@ -4,6 +4,6 @@ public enum OrderType {
     
     MEDICATION,
     PROCEDURE,
-    DIAGNOSTIC_AID,
+    DIAGNOSTIC,
     MIXED
 }
