@@ -1,5 +1,7 @@
 package app.domain.entity_models;
 
+import java.time.LocalDate;
+
 public class VitalSigns {
     
     private String patientDocument;

@@ -5,9 +5,9 @@ import java.time.LocalDate;
 
 public class MedicalRecord {
     
-    private long patientDocument;
+    private String patientDocument;
     private LocalDate consultationDate;
-    private long doctorDocument;
+    private String doctorDocument;
     private String consultationReason;
     private String symptoms;
     private String diagnosis;

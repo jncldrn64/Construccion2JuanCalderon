@@ -6,8 +6,8 @@ import java.time.LocalDate;
 public class Order {
     
     private int orderNumber;
-    private long patientDocument;
-    private long doctorDocument;
+    private String patientDocument;
+    private String doctorDocument;
     private LocalDate creationDate;
     private OrderType orderType;
 }
